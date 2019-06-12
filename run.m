@@ -8,13 +8,13 @@ data = [s1 ; 0.5*s1+0.2*s2; 0.2*s1+0.5*s2; s2];
 
 convertAndSaveData(data, 1/80000, "twoSignals")
 
-cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Attention_Neuron'
+%cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Attention_Neuron'
 runScriptDN
 
-cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Intermediate_Layer'
+%cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Intermediate_Layer'
 runScriptL1
 
-cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Output_Layer'
+%cd 'C:\Users\Jeff Brown\Desktop\MB2018 - ANNet\Output_Layer'
 runScriptL2
 
 inputFile='s1_truth.mat';
